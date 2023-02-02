@@ -17,12 +17,12 @@ async def Start_msg(bot: GreyMatter , m: Message):
     photo="https://telegra.ph/file/19eeb26fa2ce58765917a.jpg",
     caption = f"Hello [{m.from_user.first_name}](tg://user?id={m.from_user.id})\n" +
     f"\nI am Forward bot." +
-    f"\nPress /help for More Info.\n\n__**Owner** : @GreyMatter_Owner\n**Language** : Python\n**Framwork** : Pyrogram__",
+    f"\nPress /help for More Info.\n\n__**Owner** : @Ayita_P_S\n**Language** : Python\n**Framwork** : Pyrogram__",
     # parse_mode="md",
     reply_markup=InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton("Owner", url="https://t.me/GreyMatter_Owner")],
-            [InlineKeyboardButton("Channel", url="https://t.me/GreyMatter_Bots")],
+            [InlineKeyboardButton("Owner", url="https://t.me/Ayita_P_S")],
+            [InlineKeyboardButton("Channel", url="https://t.me/MX_Networks")],
             [InlineKeyboardButton("YT Channel", url="https://youtube.com/@greymattersyt")],
         ],
     )
